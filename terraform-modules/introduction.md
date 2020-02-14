@@ -23,7 +23,7 @@ git push --follow-tags
 
 ```
 module "vpc" {
-  source = "git::git@github.com:volvo-cars/ccdp-mono.git//network/vpc?ref=v0.0.1"
+  source = "git::git@github.com:terraform/terraform.git//network/vpc?ref=v0.0.1"
 }
 ```
 ## Avoid inline blocks
